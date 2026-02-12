@@ -1,0 +1,43 @@
+**Resposta da Pergunta 1:**
+
+O usuário acessa o site, em média, cerca de 26 vezes por mês, permanece em média 33 minutos navegando, adiciona aproximadamente 7 itens ao carrinho e realiza compras com ticket médio de R$ 252,70. 
+
+O gasto típico fica próximo da mediana de R$ 248,13.
+
+Mas há grande variação entre clientes, alguns compram valores baixos a partir de R$ 23,42. 
+
+Enquanto outros chegam a gastar até R$ 530,37.
+
+Os clientes de alto valor (aqueles que gastam mais de R$ 250) visitam o site com maior frequência, em média 33 vezes por mês, e permanecem mais tempo navegando, cerca de 37 minutos por sessão. Esse comportamento indica um alto nível de engajamento, sugerindo que quanto mais esses usuários interagem com a plataforma, maior tende a ser o valor de suas compras.
+
+**Resposta da Pergunta 2:**
+
+Os clientes de alto valor (aqueles que gastam mais de R$ 250) visitam o site com maior frequência, em média 33 vezes por mês, e permanecem mais tempo navegando, cerca de 37 minutos por sessão. Esse comportamento indica um alto nível de engajamento, sugerindo que quanto mais esses usuários interagem com a plataforma, maior tende a ser o valor de suas compras.
+
+**Resposta da Pergunta 3:**
+
+Os usuários que não realizam compras visitam o site em média 7 vezes e permanecem cerca de 15 minutos navegando, mas não finalizam nenhuma transação. Esse comportamento mostra que, mesmo com algum nível de interesse, eles acabam desistindo antes da compra, representando uma oportunidade para ações de remarketing, otimização do checkout e estratégias de incentivo, como descontos ou frete grátis, para aumentar a conversão.
+
+**Resposta da Pergunta 4:**
+
+A matriz está organizada na ordem [Visitas, Tempo, Itens, Valor]. Os valores variam entre –1 e +1, onde:
+
+- +1 indica correlação positiva perfeita
+- 0 indica ausência de correlação
+- –1 indica correlação negativa perfeita
+
+No trecho relevante para a pergunta:
+
+- Tempo ↔ Valor = 0,59 → correlação positiva moderada
+
+- Itens ↔ Valor = 1,00 → correlação positiva perfeita (neste conjunto de dados, valor cresce proporcionalmente ao número de itens)
+
+- Tempo ↔ Itens = 0,60 → correlação positiva moderada
+
+Esses números indicam que quanto mais tempo o usuário passa no site, maior tende a ser o número de itens no carrinho e, consequentemente, maior o valor da compra. O fato de “Itens ↔ Valor” ser 1,00 mostra que, no dataset analisado, o valor final cresce linearmente com a quantidade de itens (possivelmente porque cada item tem preço médio semelhante).
+
+Assim, a resposta para a pergunta seria:
+
+- Sim. Há uma correlação estatisticamente relevante: o tempo gasto no site se relaciona moderadamente tanto com o número de itens no carrinho quanto com o valor final da compra, e a quantidade de itens tem correlação praticamente perfeita com o valor final, indicando forte relação entre esses fatores.
+
+Obs: Para confirmar a significância estatística, seria necessário calcular o p-valor dessas correlações.
